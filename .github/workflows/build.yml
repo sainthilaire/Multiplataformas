@@ -1,0 +1,26 @@
+name: Build
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+    build:
+      name: Build
+      runs-on: macos-latest
+      steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build
+        run: msbuild /restore ./ExposureNotifications.sln
+
+    test:
+      name: Run Tests
+      runs-on: windows-latest  # using Windows to work around https://github.com/dotnet/runtime/issues/23635
+      steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Run Tests
+        run: dotnet test ./Functions.Tests/Functions.Tests.csproj

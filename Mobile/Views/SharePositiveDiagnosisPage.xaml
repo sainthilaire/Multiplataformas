@@ -45,12 +45,12 @@
                 <Frame Style="{DynamicResource CardFrame}">
                     <StackLayout>
 
-                        <Label Style="{DynamicResource SmallLabelStyle}" Text="[Insert text from local Health authority]" />
+                        <Label Style="{DynamicResource SmallLabelStyle}" Text="[Inserte el hospital local]" />
 
                         <Label
                             Margin="0,12,0,0"
                             Style="{DynamicResource SmallLabelStyle}"
-                            Text="Only those who have been exposed will receive a notification." />
+                            Text="Recibira las notificaciones." />
 
                         <Entry
                             HorizontalOptions="FillAndExpand"
@@ -62,7 +62,7 @@
                         <Label
                             Margin="0,12,0,0"
                             Style="{DynamicResource SmallLabelStyle}"
-                            Text="The unique test identifier that came with your COVID-19 test must be used to verify your positive test result." />
+                            Text="Muy pronto." />
 
                         <DatePicker
                             Margin="0,20,0,0"
@@ -73,7 +73,7 @@
                         <Label
                             Margin="0,12,0,0"
                             Style="{DynamicResource SmallLabelStyle}"
-                            Text="The test date helps the app know when you may have been contagious and notify the right people of potential exposure." />
+                            Text="La fecha de la prueba ayuda a la aplicación a saber cuándo puede haber sido contagioso y a notificar a las personas adecuadas sobre la posible exposición." />
 
 
                         <Button

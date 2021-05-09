@@ -37,23 +37,23 @@
         <StackLayout Grid.Row="1" Style="{DynamicResource Container}">
             <Frame Style="{DynamicResource CardFrame}">
                 <StackLayout Spacing="20">
-                    <Label Style="{DynamicResource SmallLabelStyle}" Text="[Actual copy to be provided by Public Health Authority]" />
+                    <Label Style="{DynamicResource SmallLabelStyle}" Text="[Aplicacion de Salud por el covid]" />
 
                     <BoxView BackgroundColor="{DynamicResource TextPrimaryColor}" HeightRequest="2" />
 
-                    <Label Style="{DynamicResource SmallLabelStyle}" Text="The person's test result has been verified.  You were near this person at:" />
+                    <Label Style="{DynamicResource SmallLabelStyle}" Text="Se ha verificado el resultado de la prueba de la persona. Estabas cerca de esta persona en:" />
                     <Label
                         FontAttributes="Bold"
                         Style="{DynamicResource SmallLabelStyle}"
                         Text="{Binding When, StringFormat='{0:MMMM d, yyyy h:mm tt}'}" />
 
-                    <Label Style="{DynamicResource SmallLabelStyle}" Text="You were exposed to this person for approximately:" />
+                    <Label Style="{DynamicResource SmallLabelStyle}" Text="estuvo expuesto a esta persona durante aproximadamente:" />
                     <Label
                         FontAttributes="Bold"
                         Style="{DynamicResource SmallLabelStyle}"
                         Text="{Binding Duration, StringFormat='{0:%m} minutes'}" />
 
-                    <Label Style="{DynamicResource SmallLabelStyle}" Text="Next steps: [Actual copy to be provided by Public Health Authority]." />
+                    <Label Style="{DynamicResource SmallLabelStyle}" Text="Próximos pasos: [La autoridad de salud pública proporcionará una copia real]." />
 
                 </StackLayout>
             </Frame>

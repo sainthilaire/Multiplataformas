@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.github",
+    "\\Mobile",
+    "\\Mobile.Android\\Resources",
+    "\\Mobile\\Views",
+    "\\Multiplataformas\\Multiplataformas",
+    "\\Multiplataformas\\Multiplataformas\\Mobile",
+    "\\Multiplataformas\\Multiplataformas\\Mobile.Android",
+    "\\Multiplataformas\\Multiplataformas\\Mobile.Android\\Services",
+    "\\Multiplataformas\\Multiplataformas\\Mobile\\Views"
+  ],
+  "SelectedNode": "\\Mobile\\Views\\SharePositiveDiagnosisPage.xaml",
+  "PreviewInSolutionExplorer": false
+}
